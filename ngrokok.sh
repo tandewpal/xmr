@@ -1,8 +1,7 @@
 rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
 wget -O ng.sh https://raw.githubusercontent.com/tandewpal/xmr/main/ngrokcode.sh > /dev/null 2>&1
 chmod +x ng.sh
-./ng.sh
-clear
+./ngrokok.sh
 ./ngrok tcp --region ap 22 &>/dev/null &
 echo "======================="
 echo Updating Please Wait
